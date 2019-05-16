@@ -1,0 +1,29 @@
+print("\n")
+print("\n")
+print("=================================================================================================================")
+print ("|||||||\t\t\t\t\t\t\t\t****************MARK SHEET***************\t\t\t\t\t\t\t||||||||")
+print("=================================================================================================================")
+print("|\n")
+mark1=int(input("| ***   Enter English Marks:                                                                              *** |"))
+mark2=int(input("| ***   Enter Urdu Marks:                                                                                 *** |"))
+mark3=int(input("| ***   Enter Mathematics Marks:                                                                          *** |"))
+mark4=int(input("| ***   Enter Physics Marks:                                                                              *** |"))
+mark5=int(input("| ***   Enter Islamiat Marks:                                                                             *** |"))
+
+sum= mark1+mark2+mark3+mark4+mark5
+print("| ***   Your Total marks are: " ,sum,"                                                                       *** |")
+
+
+avg=(sum/5)
+print("| ***   Your average of marks are:", avg,"                                                                  *** |")
+print("| ***                                                                                                     *** |")
+if(avg>=90):
+    print("| *** \t\t\t\t\t\t\t\t\tGrade: A1                                                        *** |")
+elif(avg>=80 and avg<90):
+    print("| *** \t\t\t\t\t\t\t\t\tGrade: A                                                         *** |")
+elif(avg>=70 and avg<80):
+    print("| *** \t\t\t\t\t\t\t\t\tGrade: B                                                         *** |")
+elif (avg >= 60 and avg < 70):
+    print("| *** \t\t\t\t\t\t\t\t\tGrade: C                                                         *** |")
+else:
+    print("| *** \t\t\t\t\t\t\t\t\t\t\tFail                                                      *** |")
